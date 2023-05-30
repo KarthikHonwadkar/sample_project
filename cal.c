@@ -6,7 +6,7 @@ int main()
 	double first, second;
 	printf("Enter an operator (+, -, *, /): ");
 	scanf("%c", &op);
-	printf("Enter two operands: ");
+	printf("Enter two operands and : ");
 	scanf("%lf %lf", &first, &second);
 	
 	switch (op)
@@ -32,6 +32,7 @@ int main()
 		printf("Error! operator is not correct");
 	}
 	
+	printf("/n");
 	return 0;
 }
 
